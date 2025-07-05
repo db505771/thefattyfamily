@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization Pending</title>
+    <style>
+        body {
+            background-color: #121212; /* Dark mode background */
+            color: #e0e0e0; /* Light gray text for contrast */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #1e1e1e; /* Slightly lighter dark background for the container */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #bb86fc; /* A common dark mode accent color (purple) */
+            margin-bottom: 10px;
+        }
+        p {
+            color: #e0e0e0;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #03dac6; /* A common dark mode accent color (teal) */
+            color: #121212; /* Dark text for the button for contrast */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none; /* In case it's an <a> tag styled as a button */
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #018786; /* Darker teal on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Authorization Pending...</h1>
+        <p>Some accounts aren't allowed</p>
+        <button class="button" onclick="location.href='#'">Go to The fatty family app</button>
+    </div>
+</body>
+</html>
